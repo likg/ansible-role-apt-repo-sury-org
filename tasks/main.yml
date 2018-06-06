@@ -5,6 +5,7 @@
   package:
     name:  '{{ item }}'
     state: present
+    update_cache: yes
   with_items: '{{ apt_repo_sury_org__requires }}'
   tags:
     - packages
