@@ -1,0 +1,7 @@
+---
+# apt-repo-sury-org/defaults/main.yml
+
+apt_repo_sury_org__requires:
+  - lsb-release
+  - ca-certificates
+  - apt-transport-https

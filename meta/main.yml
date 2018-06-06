@@ -1,0 +1,21 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: lik
+  description: Install APT packages.sury.org/phps repository
+  min_ansible_version: 2.4
+  license: MIT
+  platforms:
+  - name: Debian
+    versions:
+    - jessie
+    - stretch
+  - name: Ubuntu
+    versions:
+    - trusty
+    - xenial
+  galaxy_tags:
+    - repos
+    - apt
+    - sury
